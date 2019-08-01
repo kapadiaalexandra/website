@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="reset.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+        <title>Alexandra Kapadia</title>
+        <script type="text/javascript">
+            function show_email() {
+                var user = 'akapadia',
+                    domain = 'bu.edu',
+                    element = document.getElementById('email');
+                element.innerHTML = user + '@' + domain;
+            }
+            window.onload = show_email;
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Alexandra Kapadia</h1>
+            <p id="email"></p>
+        </header>
+        <section>
+            <h2>About</h2>
+            <img class="r-w13" alt="photo" src="photo.jpg"/>
+            <p class="l-w23">I am a first-year Ph.D. student in the Communication Neuroscience Research Laboratory at Boston University. I study speech perception and am interested in how people process variability in speech signals to access meaninful linguistic categories. I completed a Masters degree in speech-language pathology in 2019.</p>
+        </section>
+        <section>
+            <h2>Links</h2>
+            <p><a target="_blank" href="cv.pdf">CV</a></p>
+            <p><a target="_blank" href="https://sites.bu.edu/cnrlab/">Communication Neuroscience Research Laboratory</a></p>
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>

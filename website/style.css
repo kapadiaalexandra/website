@@ -1,0 +1,72 @@
+html {
+    font-family: "Open Sans", "Helvetica", sans-serif;
+    background-color: #eeeeee;
+}
+
+body {
+    margin: 25px auto;
+    max-width: 500px;
+    border: 1px solid #aaaaaa;
+    padding: 0px 15px;
+    background-color: #ffffff;
+}
+
+/* minimum margin for mobile */
+@media screen and ( max-width: 600px ){
+    body {
+        margin: 25px 25px;
+    }
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+
+header p#email {
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+}
+
+section {
+    clear: both;
+}
+
+section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+section p {
+    line-height: 1.4;
+}
+
+section p:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+footer {
+    min-height: 15px;
+}
+
+.l-w23 {
+    float: left;
+    width: 63%;
+}
+.r-w13 {
+    float: right;
+    width: 33%;
+}
+@media screen and ( max-width: 400px ){
+    .l-w23 {
+        float: none;
+        width: 100%;
+    }
+    .r-w13 {
+        margin-top: 10px;
+        float: none;
+        width: 100%;
+    }
+}
